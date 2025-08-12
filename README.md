@@ -2,7 +2,7 @@
   <img src="https://i.imgur.com/link-para-seu-banner.gif" alt="Banner Animado" width="800"/>
 </p>
 
-<h1 align="center">Olá, eu sou Jhonatan W. S. de Santana 👋</h1>
+<h1 align="center">Olá sou Jhonatan👋</h1>
 
 <p align="center">
   <em>Entusiasta de Inteligência Artificial e Ciência de Dados | Transformando dados em decisões estratégicas.</em>
