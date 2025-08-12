@@ -40,7 +40,7 @@
 <table align="center" border="0" cellpadding="10" cellspacing="0">
   <tr align="center">
     <td width="50%" valign="top">
-      <a href="https://github.com/jhonatanwsds/Desafio_Telecom_Parte2" target="_blank">
+      <a href="https://github.com/jhonatanwsds/TelecomX_BR" target="_blank">
         <img src="https://i.imgur.com/link-para-imagem-projeto1.png" alt="Previsão de Churn" width="100%">
       </a>
       <br>
