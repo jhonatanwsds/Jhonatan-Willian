@@ -22,7 +22,7 @@ jobs:
         run: npm install lottie-to-svg
 
       - name: Generate SVG from Lottie
-        run: npx lottie-to-svg -i banner-animation.json -o banner.svg
+        run: npx lottie-to-svg -i main/banner-animation.json -o banner.svg
 
       - name: Commit and Push SVG
         uses: stefanzweifel/git-auto-commit-action@v4
