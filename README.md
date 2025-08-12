@@ -48,7 +48,7 @@
       <p>Pipeline de ML para prever a evasão de clientes, da análise à avaliação de modelos.</p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/jhonatanwsds/TelecomX_BR" target="_blank">
+      <a href="https://github.com/jhonatanwsds/ChallengerBigData" target="_blank">
         <img src="https://i.imgur.com/link-para-imagem-projeto2.png" alt="ETL de Dados" width="100%">
       </a>
       <br>
