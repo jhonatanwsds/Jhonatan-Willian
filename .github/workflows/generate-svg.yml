@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: '18'
 
-      - name: Install lottie-to-svg
-        run: npm install lottie-to-svg # Adiciona esta linha para instalar o pacote
+      - name: Install dependencies
+        run: npm install lottie-to-svg
 
       - name: Generate SVG from Lottie
         run: npx lottie-to-svg -i banner-animation.json -o banner.svg
