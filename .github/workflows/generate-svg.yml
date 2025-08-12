@@ -1,44 +1,29 @@
-# Nome da nossa automação
 name: Generate Animated SVG
 
-# Gatilhos: Quando o robô deve rodar?
 on:
-  # 1. A cada push na branch 'main' que mude o arquivo JSON
   push:
     branches:
       - main
-    paths:
-      - 'banner-animation.json'
-      
-  # 2. Permite que você rode manualmente pela aba "Actions" do GitHub
   workflow_dispatch:
 
 jobs:
-  # Nome do nosso trabalho
   generate:
-    # O tipo de máquina que vai rodar
     runs-on: ubuntu-latest
-
     steps:
-      # Passo 1: Baixa o código do seu repositório para a máquina virtual
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Passo 2: Instala o Node.js, que é necessário para a ferramenta de conversão
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      # Passo 3: Instala a ferramenta que converte Lottie JSON para SVG
       - name: Install lottie-to-svg
         run: npm install -g lottie-to-svg
 
-      # Passo 4: Roda a conversão
       - name: Generate SVG from Lottie
         run: lottie-to-svg -i banner-animation.json -o banner.svg
 
-      # Passo 5: Faz o commit automático do novo arquivo banner.svg para o seu repositório
       - name: Commit and Push SVG
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
