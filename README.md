@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github-readme-lottie.vercel.app/api?url=https://gist.githubusercontent.com/jhonatanwsds/6d710ed6dde0aeb0b55506666dcf2327/raw/1deec256381571508a96ca4af9b13d4f3fec21ff/banner-animation.json&height=250&width=900" />
+  <img src="https://github-readme-lottie.vercel.app/api?url=https://gist.githubusercontent.com/jhonatanwsds/6d710ed6dde0aeb0b55506666dcf2327/raw/banner-animation.json&height=250&width=900" />
 </p>
 
 <h1 align="center">Olá sou Jhonatan👋</h1>
