@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/gJz9k4b.gif" width="900" />
+  <img src="Analytics Character Animation.gif" />
 </p>
 
 <h1 align="center">Olá, sou o Jhonatan 👋</h1>
